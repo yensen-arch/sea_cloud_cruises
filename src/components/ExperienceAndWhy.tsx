@@ -1,23 +1,23 @@
 import { Card, CardContent } from "@/components/ui/card";
 
 const experiences = [{
-  title: "True Windjammers",
-  description: "Step back in time on board the legendary Sea Cloud and Sea Cloud II—handcrafted sailing ships steeped in history and charm.",
+  title: "Historic Tall Ships",
+  description: "Sail on romantic windjammers, including the original Sea Cloud from 1931.",
   color: "bg-blue-50 text-blue-600",
   image: "https://res.cloudinary.com/dqh2tacov/image/upload/v1734684533/cld-sample-4.jpg"
 }, {
-  title: "Refined Comfort",
-  description: "Enjoy elegant cabins with classic styling, fine linens, and vintage details—alongside gourmet cuisine and attentive service.",
+  title: "Hands-On Sailing Experience",
+  description: "Guests watch and participate as crew manually hoist sails.",
   color: "bg-rose-50 text-rose-600",
   image: "https://res.cloudinary.com/dqh2tacov/image/upload/v1734684532/samples/cup-on-a-table.jpg"
 }, {
-  title: "Intimate Atmosphere",
-  description: "With fewer than 100 guests on board, relish a private yacht-like experience with the camaraderie of a well-traveled community.",
+  title: "Elegant, Period-Inspired Interiors",
+  description: "Luxurious cabins with vintage touches preserve old-world charm.",
   color: "bg-amber-50 text-amber-600",
   image: "https://res.cloudinary.com/dqh2tacov/image/upload/v1734684530/samples/balloons.jpg"
 }, {
-  title: "Sailing Tradition",
-  description: "Watch the crew climb the rigging to unfurl the sails by hand—preserving authentic seamanship in every journey.",
+  title: "Intimate Guest Capacity",
+  description: "Just 64–94 guests per ship means personalized service and quiet ambiance.",
   color: "bg-emerald-50 text-emerald-600",
   image: "https://res.cloudinary.com/dqh2tacov/image/upload/v1734684526/samples/landscapes/beach-boat.jpg"
 }];
@@ -68,7 +68,7 @@ const ExperienceAndWhy = () => {
           <div className="w-24 h-1 bg-viking-gold mx-auto"></div>
         </div>
 
-        {/* Viking River Cruises Section */}
+        {/* Sea Cloud Cruises Section */}
         <div className="mb-24">
           <div className="mb-12 flex justify-center border-2 border-viking-gold py-4">
             <img
